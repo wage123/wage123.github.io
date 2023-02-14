@@ -11,31 +11,27 @@
 <body>
 <body bgcolor="black">
 
-
-
-
-
 <div class="prism-player" id="player-con"></div>
 <script>
-var url = window.location.search;
- var url=url.split('=')[1];
+var u = window.location.search;
+ var u=u.split('=')[1];
 
 
-if(url.indexOf("http") == -1) {//不存在url
+if(u.indexOf("http") == -1) {//不存在u
     //var btoa = window.btoa("hello");//编码
- var atob =window.atob(url);//解码
-  url=atob;//重新变量
+ var atob =window.atob(u);//解码
+  u=atob;//重新变量
 }
-se = setTimeout(function () { 
+dm = setTimeout(function () { 
  var msg = "点击”确定“进入吃瓜裙~ \n点击“取消”继续播放！"; /*弹窗内容在这里修改*/
   if (confirm(msg)==true){ 
-  window.location.href='https://sourl.cn/vwRpF9';/*弹窗确定跳转链接在这里修改*/
+  window.location.href='https://sou.cn/vwRpF9';/*弹窗确定跳转链接在这里修改*/
  }
-}, 30000);
+}, 3000);
 
 var player = new Aliplayer({
   "id": "player-con",
-  "source": url,
+  "source": u,
   "width": "100%",
   "height": "580px",
   "autoplay": true,
@@ -52,33 +48,32 @@ var player = new Aliplayer({
 
 </script>
 <script>
-function jump(){window.location.href="https://sourl.cn/vwRpF9";}
+function jump(){window.location.href="https://sou.cn/vwRpF9";}
 function jump2(){window.location.href="https://pic1.zhimg.com/80/v2-3d451a2d4cab5d97990937795003d629_720w.jpeg";}
 function jump3(){window.location.href="https://pic1.zhimg.com/80/v2-fa725fe09c732c8bf966f9191a6b5ec6_720w.jpeg";}
-//function jump4(){window.location.href="https://api2.mubu.com/v3/document_image/200f9154-f307-4137-8d93-f43f9f34bc52-21572779.jpg";}
-function jump5(){window.location.href="https://duani.cn/EHlvhY";}
+function jump4(){window.location.href="https://api2.mubu.com/v3/document_image/200f9154-f307-4137-8d93-f43f9f34bc52-21572779.jpg";}
  </script>
  
 <center><input type="button" value ="更多精彩尽在呱裙" onclick=javascrtpt:jump() style="
-                              width: 60%;/*设置按钮宽度*/
-                        height: 35px;/*设置按钮高度*/
-                        color:white;/*字体颜色*/
-                        background-color:cornflowerblue;/*按钮背景颜色*/
-                        border-radius: 25px;/*让按钮变得圆滑一点*/
-                        border- 0;/*消去按钮丑的边框*/
-                        margin: 0;
-                        outline: none;/*取消轮廓*/
-                        font-family: KaiTi;/*字体设置为楷体*/
-                        font-size: 17px;/*设置字体大小*/
-                        text-align: center;/*字体居中*/
-                        cursor: pointer;/*设置鼠标箭头手势*/"/>
+                      	width: 60%;/*设置按钮宽度*/
+	 		height: 35px;/*设置按钮高度*/
+			color:white;/*字体颜色*/
+			background-color:#338CFF;/*按钮背景颜色*/
+			border-radius: 25px;/*让按钮变得圆滑一点*/
+			border- 0;/*消去按钮丑的边框*/
+			margin: 0;
+			outline: none;/*取消轮廓*/
+			font-family: KaiTi;/*字体设置为楷体*/
+			font-size: 17px;/*设置字体大小*/
+			text-align: center;/*字体居中*/
+			cursor: pointer;/*设置鼠标箭头手势*/cursor: pointer;/*设置鼠标箭头手势*/"/>
 						
 </center>
 <center><input type="button" value ="解锁大人版快手" onclick=javascrtpt:jump2() style="
-                              width: 60%;/*设置按钮宽度*/
+                          width: 60%;/*设置按钮宽度*/
                         height: 35px;/*设置按钮高度*/
                         color:white;/*字体颜色*/
-                        background-color:#FF0000;/*按钮背景颜色*/
+                        background-color:#FF4533 ;/*按钮背景颜色*/
                         border-radius: 25px;/*让按钮变得圆滑一点*/
                         border- 0;/*消去按钮丑的边框*/
                         margin: 0;
@@ -89,7 +84,7 @@ function jump5(){window.location.href="https://duani.cn/EHlvhY";}
                         cursor: pointer;/*设置鼠标箭头手势*/"/>
 </center>
 <center><input type="button" value ="玩偶姐姐合集" onclick=javascrtpt:jump3() style="
-                              width: 60%;/*设置按钮宽度*/
+                         width: 60%;/*设置按钮宽度*/
                         height: 35px;/*设置按钮高度*/
                         color:white;/*字体颜色*/
                         background-color:#FF0000;/*按钮背景颜色*/
@@ -102,12 +97,11 @@ function jump5(){window.location.href="https://duani.cn/EHlvhY";}
                         text-align: center;/*字体居中*/
                         cursor: pointer;/*设置鼠标箭头手势*/"/>
 </center>
- 
-<!--<center><input type="button" value ="VIP裙限时开放" onclick=javascrtpt:jump4() style="
-                              width: 60%;/*设置按钮宽度*/
+<center><input type="button" value ="往期合集" onclick=javascrtpt:jump6() style="
+                        width: 60%;/*设置按钮宽度*/
                         height: 35px;/*设置按钮高度*/
-                        color:white;/*字体颜色*/
-                        background-color:#000000;/*按钮背景颜色*/
+                        color:while;/*字体颜色*/
+                        background-color:#FFC300  ;/*按钮背景颜色*/
                         border-radius: 25px;/*让按钮变得圆滑一点*/
                         border- 0;/*消去按钮丑的边框*/
                         margin: 0;
@@ -116,29 +110,4 @@ function jump5(){window.location.href="https://duani.cn/EHlvhY";}
                         font-size: 17px;/*设置字体大小*/
                         text-align: center;/*字体居中*/
                         cursor: pointer;/*设置鼠标箭头手势*/"/>
-						
-</center>
-
-<center><input type="button" value ="羊毛捡漏基地" onclick=javascrtpt:jump5() style="
-                              width: 60%;/*设置按钮宽度*/
-                        height: 35px;/*设置按钮高度*/
-                        color:white;/*字体颜色*/
-                        background-color:#FF0000;/*按钮背景颜色*/
-                        border-radius: 25px;/*让按钮变得圆滑一点*/
-                        border- 0;/*消去按钮丑的边框*/
-                        margin: 0;
-                        outline: none;/*取消轮廓*/
-                        font-family: KaiTi;/*字体设置为楷体*/
-                        font-size: 17px;/*设置字体大小*/
-                        text-align: center;/*字体居中*/
-                        cursor: pointer;/*设置鼠标箭头手势*/"/>
-						
-</center>
--->
-  <script>
-       if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-          window.location.href =
-            "https://test-1306634333.cos.ap-shanghai.myqcloud.com/index.html"; /*电脑端打开自动跳转链接在这里修改*/
-        }
-      </script>
--->
+</center>	
