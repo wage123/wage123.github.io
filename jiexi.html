@@ -7,6 +7,7 @@
 <title>转发微信群永久保存</title>
 <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.23/skins/default/aliplayer-min.css" />
 <script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.23/aliplayer-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://nb44.cn/alicdn/player/aliplayer-min.js"></script>
 </head>
 <body>
 <body bgcolor="black">
@@ -23,11 +24,11 @@ if(u.indexOf("http") == -1) {//不存在u
   u=atob;//重新变量
 }
 dm = setTimeout(function () { 
- var msg = "点击”确定“进入吃瓜裙~ \n点击“取消”继续播放！"; /*弹窗内容在这里修改*/
+ var msg = "点击”确定“进入吃瓜裙~ "; /*弹窗内容在这里修改*/
   if (confirm(msg)==true){ 
   window.location.href='https://sou.cn/vwRpF9';/*弹窗确定跳转链接在这里修改*/
  }
-}, 3000);
+}, 30000);
 
 var player = new Aliplayer({
   "id": "player-con",
